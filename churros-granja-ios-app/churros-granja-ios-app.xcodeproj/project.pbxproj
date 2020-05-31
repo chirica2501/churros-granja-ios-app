@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D46353B2483050D008110B0 /* ProductController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4635382483050D008110B0 /* ProductController.swift */; };
+		1D46353C2483050D008110B0 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4635392483050D008110B0 /* LoginController.swift */; };
+		1D46353D2483050D008110B0 /* InventoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D46353A2483050D008110B0 /* InventoryController.swift */; };
+		1D4635412483051D008110B0 /* AlertMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D46353F2483051D008110B0 /* AlertMessage.swift */; };
+		1D91F67A248302D400266F9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D91F679248302D400266F9D /* AppDelegate.swift */; };
+		1D91F67C248302D400266F9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D91F67B248302D400266F9D /* SceneDelegate.swift */; };
+		1D91F681248302D400266F9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D91F67F248302D400266F9D /* Main.storyboard */; };
+		1D91F684248302D400266F9D /* churros_granja_ios_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1D91F682248302D400266F9D /* churros_granja_ios_app.xcdatamodeld */; };
+		1D91F686248302D500266F9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D91F685248302D500266F9D /* Assets.xcassets */; };
+		1D91F689248302D500266F9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D91F687248302D500266F9D /* LaunchScreen.storyboard */; };
+		9894CE5DE1A2C64EA6FA4BE0 /* Pods_churros_granja_ios_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A55C8690C8F6CD23B81F627 /* Pods_churros_granja_ios_app.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AEE0092C5C4278268134857 /* Pods-churros-granja-ios-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-churros-granja-ios-app.debug.xcconfig"; path = "Target Support Files/Pods-churros-granja-ios-app/Pods-churros-granja-ios-app.debug.xcconfig"; sourceTree = "<group>"; };
+		1D4635382483050D008110B0 /* ProductController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductController.swift; sourceTree = "<group>"; };
+		1D4635392483050D008110B0 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		1D46353A2483050D008110B0 /* InventoryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryController.swift; sourceTree = "<group>"; };
+		1D46353F2483051D008110B0 /* AlertMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertMessage.swift; sourceTree = "<group>"; };
+		1D91F676248302D400266F9D /* churros-granja-ios-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "churros-granja-ios-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D91F679248302D400266F9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D91F67B248302D400266F9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1D91F680248302D400266F9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D91F683248302D400266F9D /* churros_granja_ios_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = churros_granja_ios_app.xcdatamodel; sourceTree = "<group>"; };
+		1D91F685248302D500266F9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D91F688248302D500266F9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D91F68A248302D500266F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		592025BE698B7E3391A762FC /* Pods-churros-granja-ios-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-churros-granja-ios-app.release.xcconfig"; path = "Target Support Files/Pods-churros-granja-ios-app/Pods-churros-granja-ios-app.release.xcconfig"; sourceTree = "<group>"; };
+		6A55C8690C8F6CD23B81F627 /* Pods_churros_granja_ios_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_churros_granja_ios_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D91F673248302D400266F9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9894CE5DE1A2C64EA6FA4BE0 /* Pods_churros_granja_ios_app.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D46353524830498008110B0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1D46353F2483051D008110B0 /* AlertMessage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1D4635362483049E008110B0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1D46353A2483050D008110B0 /* InventoryController.swift */,
+				1D4635392483050D008110B0 /* LoginController.swift */,
+				1D4635382483050D008110B0 /* ProductController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1D463537248304AB008110B0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1D91F67F248302D400266F9D /* Main.storyboard */,
+				1D91F687248302D500266F9D /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1D91F66D248302D400266F9D = {
+			isa = PBXGroup;
+			children = (
+				1D91F678248302D400266F9D /* churros-granja-ios-app */,
+				1D91F677248302D400266F9D /* Products */,
+				E1C2FAF19B233A557F6D80A0 /* Pods */,
+				EC35667A53A943F0F749CB6E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1D91F677248302D400266F9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D91F676248302D400266F9D /* churros-granja-ios-app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D91F678248302D400266F9D /* churros-granja-ios-app */ = {
+			isa = PBXGroup;
+			children = (
+				1D463537248304AB008110B0 /* View */,
+				1D4635362483049E008110B0 /* Controller */,
+				1D46353524830498008110B0 /* Model */,
+				1D91F679248302D400266F9D /* AppDelegate.swift */,
+				1D91F67B248302D400266F9D /* SceneDelegate.swift */,
+				1D91F685248302D500266F9D /* Assets.xcassets */,
+				1D91F68A248302D500266F9D /* Info.plist */,
+				1D91F682248302D400266F9D /* churros_granja_ios_app.xcdatamodeld */,
+			);
+			path = "churros-granja-ios-app";
+			sourceTree = "<group>";
+		};
+		E1C2FAF19B233A557F6D80A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AEE0092C5C4278268134857 /* Pods-churros-granja-ios-app.debug.xcconfig */,
+				592025BE698B7E3391A762FC /* Pods-churros-granja-ios-app.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EC35667A53A943F0F749CB6E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A55C8690C8F6CD23B81F627 /* Pods_churros_granja_ios_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D91F675248302D400266F9D /* churros-granja-ios-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D91F68D248302D500266F9D /* Build configuration list for PBXNativeTarget "churros-granja-ios-app" */;
+			buildPhases = (
+				1B0992656E6CA1FBE7407A69 /* [CP] Check Pods Manifest.lock */,
+				1D91F672248302D400266F9D /* Sources */,
+				1D91F673248302D400266F9D /* Frameworks */,
+				1D91F674248302D400266F9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "churros-granja-ios-app";
+			productName = "churros-granja-ios-app";
+			productReference = 1D91F676248302D400266F9D /* churros-granja-ios-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D91F66E248302D400266F9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Ricardo Granja";
+				TargetAttributes = {
+					1D91F675248302D400266F9D = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 1D91F671248302D400266F9D /* Build configuration list for PBXProject "churros-granja-ios-app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D91F66D248302D400266F9D;
+			productRefGroup = 1D91F677248302D400266F9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D91F675248302D400266F9D /* churros-granja-ios-app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D91F674248302D400266F9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D91F689248302D500266F9D /* LaunchScreen.storyboard in Resources */,
+				1D91F686248302D500266F9D /* Assets.xcassets in Resources */,
+				1D91F681248302D400266F9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1B0992656E6CA1FBE7407A69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-churros-granja-ios-app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D91F672248302D400266F9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D91F684248302D400266F9D /* churros_granja_ios_app.xcdatamodeld in Sources */,
+				1D91F67A248302D400266F9D /* AppDelegate.swift in Sources */,
+				1D4635412483051D008110B0 /* AlertMessage.swift in Sources */,
+				1D46353D2483050D008110B0 /* InventoryController.swift in Sources */,
+				1D91F67C248302D400266F9D /* SceneDelegate.swift in Sources */,
+				1D46353B2483050D008110B0 /* ProductController.swift in Sources */,
+				1D46353C2483050D008110B0 /* LoginController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1D91F67F248302D400266F9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D91F680248302D400266F9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D91F687248302D500266F9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D91F688248302D500266F9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D91F68B248302D500266F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D91F68C248302D500266F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D91F68E248302D500266F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AEE0092C5C4278268134857 /* Pods-churros-granja-ios-app.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G52ZU3YDS4;
+				INFOPLIST_FILE = "churros-granja-ios-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ricardogranja.churros-granja-ios-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D91F68F248302D500266F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 592025BE698B7E3391A762FC /* Pods-churros-granja-ios-app.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G52ZU3YDS4;
+				INFOPLIST_FILE = "churros-granja-ios-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ricardogranja.churros-granja-ios-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D91F671248302D400266F9D /* Build configuration list for PBXProject "churros-granja-ios-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D91F68B248302D500266F9D /* Debug */,
+				1D91F68C248302D500266F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D91F68D248302D500266F9D /* Build configuration list for PBXNativeTarget "churros-granja-ios-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D91F68E248302D500266F9D /* Debug */,
+				1D91F68F248302D500266F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1D91F682248302D400266F9D /* churros_granja_ios_app.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1D91F683248302D400266F9D /* churros_granja_ios_app.xcdatamodel */,
+			);
+			currentVersion = 1D91F683248302D400266F9D /* churros_granja_ios_app.xcdatamodel */;
+			path = churros_granja_ios_app.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1D91F66E248302D400266F9D /* Project object */;
+}

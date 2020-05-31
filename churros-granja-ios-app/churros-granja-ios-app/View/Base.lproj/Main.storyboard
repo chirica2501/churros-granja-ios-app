@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="LoginController" customModule="churros_granja_ios_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="square.and.arrow.up" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="b4O-YS-53J">
+                                <rect key="frame" x="45" y="93" width="324" height="181"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="180" id="Dpr-BT-hJX"/>
+                                    <constraint firstAttribute="width" constant="324" id="mHL-51-flg"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Usuario:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9gL-zV-4lj">
+                                <rect key="frame" x="45" y="292" width="324" height="24"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="htE-g9-clw">
+                                <rect key="frame" x="45" y="324" width="324" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Contraseña:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yex-KE-3ES">
+                                <rect key="frame" x="45" y="389" width="324" height="24"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xkW-XS-rgK">
+                                <rect key="frame" x="45" y="421" width="324" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hFf-wc-Qdm">
+                                <rect key="frame" x="45" y="522" width="324" height="48"/>
+                                <color key="backgroundColor" red="0.0" green="0.98106676339999999" blue="0.57369142770000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="ZZd-KN-YBQ"/>
+                                </constraints>
+                                <state key="normal" title="Inisiar Sesión:">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="signIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IWR-0i-CVD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="b4O-YS-53J" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3an-XF-s1f"/>
+                            <constraint firstItem="hFf-wc-Qdm" firstAttribute="top" secondItem="xkW-XS-rgK" secondAttribute="bottom" constant="67" id="5WC-6g-0rG"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9gL-zV-4lj" secondAttribute="trailing" constant="45" id="5cq-bo-b9n"/>
+                            <constraint firstItem="hFf-wc-Qdm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="5xD-zY-wqK"/>
+                            <constraint firstItem="htE-g9-clw" firstAttribute="top" secondItem="9gL-zV-4lj" secondAttribute="bottom" constant="8" id="6fl-ra-uhH"/>
+                            <constraint firstItem="b4O-YS-53J" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="9zV-LK-LoG"/>
+                            <constraint firstItem="htE-g9-clw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="Nhy-vB-M0w"/>
+                            <constraint firstItem="Yex-KE-3ES" firstAttribute="top" secondItem="htE-g9-clw" secondAttribute="bottom" constant="31" id="SF4-BC-IXP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="xkW-XS-rgK" secondAttribute="trailing" constant="45" id="WPI-CD-YgD"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Yex-KE-3ES" secondAttribute="trailing" constant="45" id="aYn-36-wxj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="htE-g9-clw" secondAttribute="trailing" constant="45" id="aiZ-z2-hzw"/>
+                            <constraint firstItem="9gL-zV-4lj" firstAttribute="top" secondItem="b4O-YS-53J" secondAttribute="bottom" constant="18" id="e6D-G0-TWI"/>
+                            <constraint firstItem="xkW-XS-rgK" firstAttribute="top" secondItem="Yex-KE-3ES" secondAttribute="bottom" constant="8" id="fTx-9e-XEP"/>
+                            <constraint firstItem="9gL-zV-4lj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="fzb-7G-uNd"/>
+                            <constraint firstItem="xkW-XS-rgK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="rK9-Us-rRt"/>
+                            <constraint firstItem="Yex-KE-3ES" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="slH-96-BgZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hFf-wc-Qdm" secondAttribute="trailing" constant="45" id="uvb-Yc-HDe"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="4LG-c2-a2p" appends="YES" id="dSj-3X-alh"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="passwordField" destination="xkW-XS-rgK" id="GDN-XY-uBP"/>
+                        <outlet property="userField" destination="htE-g9-clw" id="yel-dI-1Y6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="4LG-c2-a2p">
+                    <connections>
+                        <action selector="didTap:" destination="BYZ-38-t0r" id="H9L-qX-30W"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
+    </resources>
+</document>
