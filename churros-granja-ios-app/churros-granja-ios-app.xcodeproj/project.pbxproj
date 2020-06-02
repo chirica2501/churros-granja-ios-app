@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D3C3C672483907400A96F50 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3C3C662483907400A96F50 /* NavigationController.swift */; };
+		1D3C3C6A24839FA400A96F50 /* ProductInventoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3C3C6824839FA400A96F50 /* ProductInventoryCell.swift */; };
+		1D3C3C6B24839FA400A96F50 /* ProductInventoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D3C3C6924839FA400A96F50 /* ProductInventoryCell.xib */; };
 		1D46353B2483050D008110B0 /* ProductController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4635382483050D008110B0 /* ProductController.swift */; };
 		1D46353C2483050D008110B0 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4635392483050D008110B0 /* LoginController.swift */; };
 		1D46353D2483050D008110B0 /* InventoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D46353A2483050D008110B0 /* InventoryController.swift */; };
@@ -17,11 +20,17 @@
 		1D91F684248302D400266F9D /* churros_granja_ios_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1D91F682248302D400266F9D /* churros_granja_ios_app.xcdatamodeld */; };
 		1D91F686248302D500266F9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D91F685248302D500266F9D /* Assets.xcassets */; };
 		1D91F689248302D500266F9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D91F687248302D500266F9D /* LaunchScreen.storyboard */; };
+		1DFDE31B2484C7EF00071F22 /* Segues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFDE31A2484C7EF00071F22 /* Segues.swift */; };
+		1DFDE31D24862ABB00071F22 /* ExistenceMessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DFDE31C24862ABB00071F22 /* ExistenceMessageView.xib */; };
+		1DFDE31F24862B0A00071F22 /* ExistenceMessageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFDE31E24862B0A00071F22 /* ExistenceMessageController.swift */; };
 		9894CE5DE1A2C64EA6FA4BE0 /* Pods_churros_granja_ios_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A55C8690C8F6CD23B81F627 /* Pods_churros_granja_ios_app.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1AEE0092C5C4278268134857 /* Pods-churros-granja-ios-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-churros-granja-ios-app.debug.xcconfig"; path = "Target Support Files/Pods-churros-granja-ios-app/Pods-churros-granja-ios-app.debug.xcconfig"; sourceTree = "<group>"; };
+		1D3C3C662483907400A96F50 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		1D3C3C6824839FA400A96F50 /* ProductInventoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductInventoryCell.swift; sourceTree = "<group>"; };
+		1D3C3C6924839FA400A96F50 /* ProductInventoryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductInventoryCell.xib; sourceTree = "<group>"; };
 		1D4635382483050D008110B0 /* ProductController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductController.swift; sourceTree = "<group>"; };
 		1D4635392483050D008110B0 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		1D46353A2483050D008110B0 /* InventoryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryController.swift; sourceTree = "<group>"; };
@@ -34,6 +43,9 @@
 		1D91F685248302D500266F9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D91F688248302D500266F9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D91F68A248302D500266F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DFDE31A2484C7EF00071F22 /* Segues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segues.swift; sourceTree = "<group>"; };
+		1DFDE31C24862ABB00071F22 /* ExistenceMessageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExistenceMessageView.xib; sourceTree = "<group>"; };
+		1DFDE31E24862B0A00071F22 /* ExistenceMessageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExistenceMessageController.swift; sourceTree = "<group>"; };
 		592025BE698B7E3391A762FC /* Pods-churros-granja-ios-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-churros-granja-ios-app.release.xcconfig"; path = "Target Support Files/Pods-churros-granja-ios-app/Pods-churros-granja-ios-app.release.xcconfig"; sourceTree = "<group>"; };
 		6A55C8690C8F6CD23B81F627 /* Pods_churros_granja_ios_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_churros_granja_ios_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -54,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				1D46353F2483051D008110B0 /* AlertMessage.swift */,
+				1DFDE31A2484C7EF00071F22 /* Segues.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -62,8 +75,11 @@
 			isa = PBXGroup;
 			children = (
 				1D46353A2483050D008110B0 /* InventoryController.swift */,
+				1DFDE31E24862B0A00071F22 /* ExistenceMessageController.swift */,
 				1D4635392483050D008110B0 /* LoginController.swift */,
+				1D3C3C662483907400A96F50 /* NavigationController.swift */,
 				1D4635382483050D008110B0 /* ProductController.swift */,
+				1D3C3C6824839FA400A96F50 /* ProductInventoryCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -71,8 +87,10 @@
 		1D463537248304AB008110B0 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				1D91F67F248302D400266F9D /* Main.storyboard */,
 				1D91F687248302D500266F9D /* LaunchScreen.storyboard */,
+				1D91F67F248302D400266F9D /* Main.storyboard */,
+				1D3C3C6924839FA400A96F50 /* ProductInventoryCell.xib */,
+				1DFDE31C24862ABB00071F22 /* ExistenceMessageView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -186,6 +204,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D3C3C6B24839FA400A96F50 /* ProductInventoryCell.xib in Resources */,
+				1DFDE31D24862ABB00071F22 /* ExistenceMessageView.xib in Resources */,
 				1D91F689248302D500266F9D /* LaunchScreen.storyboard in Resources */,
 				1D91F686248302D500266F9D /* Assets.xcassets in Resources */,
 				1D91F681248302D400266F9D /* Main.storyboard in Resources */,
@@ -225,10 +245,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D91F684248302D400266F9D /* churros_granja_ios_app.xcdatamodeld in Sources */,
+				1D3C3C672483907400A96F50 /* NavigationController.swift in Sources */,
 				1D91F67A248302D400266F9D /* AppDelegate.swift in Sources */,
 				1D4635412483051D008110B0 /* AlertMessage.swift in Sources */,
 				1D46353D2483050D008110B0 /* InventoryController.swift in Sources */,
+				1D3C3C6A24839FA400A96F50 /* ProductInventoryCell.swift in Sources */,
+				1DFDE31F24862B0A00071F22 /* ExistenceMessageController.swift in Sources */,
 				1D91F67C248302D400266F9D /* SceneDelegate.swift in Sources */,
+				1DFDE31B2484C7EF00071F22 /* Segues.swift in Sources */,
 				1D46353B2483050D008110B0 /* ProductController.swift in Sources */,
 				1D46353C2483050D008110B0 /* LoginController.swift in Sources */,
 			);
